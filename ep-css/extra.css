@@ -1,0 +1,35 @@
+/* EP Art Prints specific styling */
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+}
+.one-half.column img {
+    margin: auto;
+    
+}
+/* Responsive layout - makes a 1 column layout instead of a multi column layout */
+@media (max-width: 800px) {
+    .row {
+      flex-direction: column;
+    }
+}
+
+/* FOOTER background is black */
+.footer{
+    background-color: black;   
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 0px;
+  }
+  .footer a {
+    text-decoration: none;
+    color: orange;
+  }
+  .footer a:hover {
+    color: deeppink;
+  }
