@@ -1,5 +1,25 @@
 /* EP Art Prints specific styling */
 
+
+/* Styling for the hero banner */
+.welcome {
+  /* Sizing */
+  width: 100vw;
+  height: 100vh;
+
+  /* Flexbox container */
+  display: flex;
+
+  
+  /* Background styles*/
+  background-image: url(../ep-images/ep-hero-text1.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+
 .row {
     display: flex;
     flex-direction: row;
@@ -8,7 +28,7 @@
 }
 .one-half.column img {
     margin: auto;
-    
+    width: 80%;
 }
 /* Responsive layout - makes a 1 column layout instead of a multi column layout */
 @media (max-width: 800px) {
